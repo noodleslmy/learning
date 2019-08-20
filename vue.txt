@@ -1,0 +1,7 @@
+vue/cli
+安装 npm i -g @vue/cl
+
+下载mintui 组件库使用的方法
+vue cli脚手架配置
+在脚手架目录配置下载 npm i mint-ui -S
+下载安装
