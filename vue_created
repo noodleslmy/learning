@@ -1,0 +1,33 @@
+升级NPM 方法
+
+#1.查看版本
+npm -v
+2.3.0
+#2.升级 npm
+cnpm install npm -g
+#3. 升级或安装 cnpm
+npm install cnpm -g
+
+vue安装教程
+#全局安装vue-cli
+cnpm install --global vue-cli
+#创建一个基于webpack模板的新项目
+vue init webpack 项目名
+#配置文件
+#进入项目，安装并运行：
+cd 项目绝对路径
+cnpm install
+cnpm run dev
+
+
+webpack依赖包安装太慢问题
+最近在学习vue过程中利用webpack生成模板创建项目的时候发现一直卡在下载模板卡网，查资料发现自己网无法连接git官网导致下载失败
+
+1、下载webpack离线安装包，并改名webpack（网上自行下载，没找到的可私聊我）。
+2、在用户目录下查看是否有 . vue-templates  目录，没有的，则创建
+命令行：cd users/HP(其中HP是电脑用户名，根据实际情况选择)；makir .vue-templates
+3、将webpack放到.vue-templates目录中
+4、离线模板创建项目：vue init webpack projectname --offline
+5、大功告成，接着
+cd projectname 
+cnpm install
